@@ -28,7 +28,7 @@ public class User {
     private String lastName;
     private LocalDate birthday;
     private Integer height; //altezza misurata in cm
-    private double weight;
+    private Double weight;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
